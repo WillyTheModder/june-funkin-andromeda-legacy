@@ -1,0 +1,66 @@
+{
+	"charOffset": [
+		100,
+		300
+	],
+	"singDur": 6.1,
+	"spritesheet": "fuzz",
+	"anims": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"prefix": "fuzz_IDLE",
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				1,
+				8
+			],
+			"fps": 24,
+			"prefix": "fuzz_UP",
+			"name": "singUP",
+			"looped": false
+		},
+		{
+			"offsets": [
+				1,
+				-6
+			],
+			"fps": 24,
+			"prefix": "fuzz_LEFT",
+			"name": "singLEFT",
+			"looped": false
+		},
+		{
+			"offsets": [
+				1,
+				6
+			],
+			"fps": 24,
+			"prefix": "fuzz_RIGHT",
+			"name": "singRIGHT",
+			"looped": false
+		},
+		{
+			"offsets": [
+				1,
+				-19
+			],
+			"fps": 24,
+			"prefix": "fuzz_DOWN",
+			"name": "singDOWN",
+			"looped": false
+		}
+	],
+	"flipX": false,
+	"antialiasing": false,
+	"iconName": "fuzz",
+	"beatDancer": false,
+	"format": "andromeda",
+	"healthColor": "0xFF646464"
+}
