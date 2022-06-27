@@ -9,6 +9,11 @@ Hello! This is the source code to June Funkin', a mod I made with some friends, 
 - [Womo](https://twitter.com/willyexplained) - Created the song "Archive".
 - [Quackerona](https://github.com/Quackerona) - Bugfixed some of my errors, and playtested.
 - [bruh_man](https://twitter.com/bruhmanfnf) - Extra playtesting.
+- [June Funkin'](https://twitter.com/JuneFunkArchive) - twitter account of june funkin' lol
+
+## The June Archive
+ - [The June Archive](https://twitter.com/JuneFlipArchive) - The June Archive
+ - [CerealBowlby](https://twitter.com/CerealBowlby) - Created the June Archive
 
 # Original description of Friday Night Funkin': Andromeda Engine
 
