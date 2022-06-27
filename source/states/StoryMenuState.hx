@@ -29,7 +29,7 @@ class StoryMenuState extends MusicBeatState
 
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true];
 
 	var txtWeekTitle:FlxText;
 

@@ -845,6 +845,8 @@ class PlayState extends MusicBeatState
 			boyfriend.y -= 75;
 
 		add(gf);
+		if (SONG.song.toLowerCase() == "archive")
+		gf.visible = false;
 		add(stage.layers.get("gf"));
 		add(dad);
 		add(stage.layers.get("dad"));

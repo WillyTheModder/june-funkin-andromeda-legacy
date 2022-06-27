@@ -60,6 +60,8 @@ class FreeplayState extends MusicBeatState
 	private var curPlaying:Bool = false;
 
 	private var iconArray:Array<HealthIcon> = [];
+	var songlist:Array<String>;
+	var freeplayicon:Array<String>;
 
 	function onMouseDown(object:FlxObject){
 		for(idx in 0...grpSongs.members.length){
@@ -144,53 +146,19 @@ class FreeplayState extends MusicBeatState
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit'])
 		*/
 
-		for(week in EngineData.weekData){
-			addWeekData(week);
+		for(i in 0...EngineData.weekData.length){
+			for (e in 0...EngineData.weekData[i].songs.length)
+			{
+				if (EngineData.weekData[i].songs[e].hideFreeplay == false)
+				{
+					songlist = [];
+					songlist.push(EngineData.weekData[i].songs[e].chartName);
+					freeplayicon = [];
+					freeplayicon.push(EngineData.weekData[i].songs[e].freeplayIcon);
+				}	
+			}	
+			addWeek(songlist, EngineData.weekData[i].songs[0].weekNum, freeplayicon);
 		}
-
-		var otherSongs = Paths.getDirs("songs","assets");
-
-		for(song in otherSongs){
-			//addSong(songName:String, weekNum:Int, songCharacter:String, ?chartName:String)
-			if(!songNames.contains(song.toLowerCase())){
-				var hasCharts:Bool = false;
-				var icon:String = 'dad';
-				var add:Bool = true;
-				var display:Null<String>=null;
-				var songFolder = 'assets/songs/${song.toLowerCase()}';
-				if(FileSystem.exists(songFolder)) {
-					var hasMetadata= FileSystem.exists('$songFolder/metadata.json');
-					var metadata:Null<ExternalSongMetadata> = null;
-					if(hasMetadata){
-						trace('GOT METADATA FOR ${song}');
-						metadata = Json.parse(File.getContent('$songFolder/metadata.json'));
-
-						add = metadata.inFreeplay==null?true:metadata.inFreeplay;
-						icon = metadata.freeplayIcon==null?'dad':metadata.freeplayIcon;
-						display = metadata.displayName;
-						hasCharts=true;
-					}else{
-						if(FileSystem.exists(Paths.chart(song,song))){
-							var song = Song.loadFromJson(song,song);
-							icon = song==null?'dad':Character.getIcon(song.player2);
-							if(icon==null)icon='dad';
-							add=true;
-							hasCharts=true;
-						}
-					}
-
-					if(FileSystem.exists(Paths.chart(song,song)) && !hasCharts){
-						hasCharts=true;
-					}
-
-					if(add && hasCharts)
-						addSong(display==null?song.replace("-"," "):display,0,icon,song);
-
-				}
-
-			}
-		}
-
 
 		// LOAD MUSIC
 
