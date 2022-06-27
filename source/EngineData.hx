@@ -339,35 +339,8 @@ class EngineData {
     new WeekData("Funkin' Virgin",0,'',[
       new SongData("Tutorial","gf",0),
     ]),
-    new WeekData("DADDY DEAREST",1,'dad',[
-      "Bopeebo",
-      "Fresh",
-      "Dadbattle"
-    ]),
-    new WeekData("Spooky Month",2,'spooky',[
-      "Spookeez",
-      "South",
-      new SongData("Monster","monster",2)
-    ]),
-    new WeekData("Pico",3,'pico',[
-      "Pico",
-      new SongData("Philly Nice","pico",3,"philly-nice"),
-      "Blammed"
-    ]),
-    new WeekData("MOMMY MUST MURDER",4,'mom',[
-      new SongData("Satin Panties","mom",4,"satin-panties"),
-      "High",
-      "MILF"
-    ]),
-    new WeekData("RED SNOW",5,'parents-christmas',[
-      "Cocoa",
-      "Eggnog",
-      new SongData("Winter Horrorland","monster",5,"winter-horrorland"),
-    ]),
-    new WeekData("hating simulator ft. moawling",6,'senpai',[
-      "Senpai",
-      "Roses",
-      new SongData("Thorns","spirit",6),
+    new WeekData("Fuzz the cat!",1,'dad',[
+       new SongData("Archive","fuzz",1, false),
     ]),
   ];
 
@@ -385,10 +358,12 @@ class SongData {
   public var freeplayIcon:String = 'gf';
   public var weekNum:Int = 0;
   public var loadingPath:String = '';
-  public function new(name:String='Tutorial',freeplayIcon:String='gf',weekNum:Int=0,?chartName:String,?path:String){
+  public var hideFreeplay:Bool = false;
+  public function new(name:String='Tutorial',freeplayIcon:String='gf',weekNum:Int=0,?hidefreeplay:Bool = false,?chartName:String,?path:String){
     if(chartName==null){
       chartName=name.replace(" ","-").toLowerCase();
     }
+    hideFreeplay = hidefreeplay;
 
     if(path==null){
       path = 'week${weekNum}';

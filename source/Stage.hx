@@ -39,6 +39,7 @@ class Stage extends FlxTypedGroup<FlxBasic> {
     "fresh"=>"stage",
     "dadbattle"=>"stage",
     "tutorial"=>"stage",
+    "archive" =>"flipnote"
   ];
 
   public static var stageNames:Array<String> = [
@@ -50,7 +51,8 @@ class Stage extends FlxTypedGroup<FlxBasic> {
     "mallEvil",
     "school",
     "schoolEvil",
-    "blank"
+    "blank",
+    "flipnote"
   ];
 
   public var doDistractions:Bool = true;
@@ -508,6 +510,15 @@ class Stage extends FlxTypedGroup<FlxBasic> {
 
         centerX = skyBG.getMidpoint().x+100;
         centerY = skyBG.getMidpoint().y-100;
+      case 'flipnote':
+	defaultCamZoom = 1.3;
+        curStage = 'flipnote';
+        var bgwhite:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('white','shared'));
+        bgwhite.antialiasing = true;
+        bgwhite.scrollFactor.set(0.9, 0.9);
+        bgwhite.active = false;
+        add(bgwhite);
+
       case 'blank':
 
       default:
