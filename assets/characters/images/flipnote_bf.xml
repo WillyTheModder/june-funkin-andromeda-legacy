@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="flipnote_bf.png">
+<SubTexture name="flipnote_bf_IDLE0000" x="386" y="379" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0001" x="814" y="0" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0002" x="814" y="372" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0003" x="814" y="372" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0004" x="1034" y="0" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0005" x="1034" y="0" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0006" x="1034" y="372" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0007" x="1034" y="372" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_IDLE0008" x="1034" y="372" width="220" height="372" frameX="-2" frameY="0" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_LEFT0000" x="0" y="0" width="207" height="379" frameX="0" frameY="0" frameWidth="209" frameHeight="379" />
+<SubTexture name="flipnote_bf_LEFT0001" x="207" y="0" width="207" height="379" frameX="0" frameY="0" frameWidth="209" frameHeight="379" />
+<SubTexture name="flipnote_bf_LEFT0002" x="414" y="0" width="207" height="379" frameX="0" frameY="0" frameWidth="209" frameHeight="379" />
+<SubTexture name="flipnote_bf_LEFT0003" x="414" y="0" width="207" height="379" frameX="0" frameY="0" frameWidth="209" frameHeight="379" />
+<SubTexture name="flipnote_bf_LEFT0004" x="414" y="0" width="207" height="379" frameX="0" frameY="0" frameWidth="209" frameHeight="379" />
+<SubTexture name="flipnote_bf_UP0000" x="621" y="0" width="193" height="379" frameX="0" frameY="-1" frameWidth="194" frameHeight="380" />
+<SubTexture name="flipnote_bf_UP0001" x="0" y="379" width="193" height="379" frameX="0" frameY="-1" frameWidth="194" frameHeight="380" />
+<SubTexture name="flipnote_bf_UP0002" x="193" y="379" width="193" height="379" frameX="0" frameY="-1" frameWidth="194" frameHeight="380" />
+<SubTexture name="flipnote_bf_UP0003" x="193" y="379" width="193" height="379" frameX="0" frameY="-1" frameWidth="194" frameHeight="380" />
+<SubTexture name="flipnote_bf_UP0004" x="193" y="379" width="193" height="379" frameX="0" frameY="-1" frameWidth="194" frameHeight="380" />
+<SubTexture name="flipnote_bf_DOWN0000" x="606" y="379" width="195" height="363" frameX="-3" frameY="-1" frameWidth="198" frameHeight="364" />
+<SubTexture name="flipnote_bf_DOWN0001" x="645" y="758" width="195" height="363" frameX="-3" frameY="-1" frameWidth="198" frameHeight="364" />
+<SubTexture name="flipnote_bf_DOWN0002" x="840" y="758" width="195" height="363" frameX="-3" frameY="-1" frameWidth="198" frameHeight="364" />
+<SubTexture name="flipnote_bf_DOWN0003" x="840" y="758" width="195" height="363" frameX="-3" frameY="-1" frameWidth="198" frameHeight="364" />
+<SubTexture name="flipnote_bf_DOWN0004" x="840" y="758" width="195" height="363" frameX="-3" frameY="-1" frameWidth="198" frameHeight="364" />
+<SubTexture name="flipnote_bf_RIGHT0000" x="0" y="758" width="215" height="368" frameX="-1" frameY="-2" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_RIGHT0001" x="215" y="758" width="215" height="368" frameX="-1" frameY="-2" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_RIGHT0002" x="430" y="758" width="215" height="368" frameX="-1" frameY="-2" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_RIGHT0003" x="430" y="758" width="215" height="368" frameX="-1" frameY="-2" frameWidth="222" frameHeight="376" />
+<SubTexture name="flipnote_bf_RIGHT0004" x="430" y="758" width="215" height="368" frameX="-1" frameY="-2" frameWidth="222" frameHeight="376" />
+</TextureAtlas>
