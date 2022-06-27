@@ -1,7 +1,16 @@
 # BEFORE PUTTING AN ISSUE IN, MAKE SURE YOU'RE ON HAXE 4.2.4!
 
-# Friday Night Funkin: Andromeda Engine
+# June Funkin'
 
+Hello! This is the source code to June Funkin', a mod I made with some friends, and I coded! I'm uploading the source, as the mod uses the source code of Andromeda Engine.
+
+## Credits of June Funkin'
+- [Willy](https://twitter.com/willy_lmao_lol) - Started the project. Did all the art, charted the song, and coded.
+- [Womo](https://twitter.com/willyexplained) - Created the song "Archive".
+- [Quackerona](https://github.com/Quackerona) - Bugfixed some of my errors, and playtested.
+- [bruh_man](https://twitter.com/bruhmanfnf) - Extra playtesting.
+
+# Original description of Friday Night Funkin': Andromeda Engine
 
 "ANDROMEDA ENGINE IS GOATED" - bbpanzu
 
