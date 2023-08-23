@@ -1,15 +1,18 @@
 # BEFORE PUTTING AN ISSUE IN, MAKE SURE YOU'RE ON HAXE 4.2.4!
 
-# June Funkin'
+# June Funkin' (LEGACY SOURCE, DIFFERENT FROM JUNE FUNKIN': LEGACY)
+
+## PLEASE NOTE!! 
+The source code to this is OUTDATED!! Whenever June Funkin': Legacy comes out, this source will have a link to that updated source. also some of the ppl, if not most of the ppl listed in the credits are no longer working on the mod lol
 
 Hello! This is the source code to June Funkin', a mod I made with some friends, and I coded! I'm uploading the source, as the mod uses the source code of Andromeda Engine.
 
 ## Credits of June Funkin'
 - [Willy](https://twitter.com/willy_lmao_lol) - Started the project. Did all the art, charted the song, and coded.
-- [Womo](https://twitter.com/willyexplained) - Created the song "Archive".
-- [Quackerona](https://github.com/Quackerona) - Bugfixed some of my errors, and playtested.
-- [bruh_man](https://twitter.com/bruhmanfnf) - Extra playtesting.
-- [June Funkin'](https://twitter.com/JuneFunkArchive) - twitter account of june funkin' lol
+- [Womo](https://twitter.com/KeithlinNicklin) - Created the song "Archive".
+- [Quackerona](https://twitter.com/SillyDilly1001) - Bugfixed some of my errors, and playtested.
+- [June Funkin': Legacy](https://twitter.com/JuneFunkArchive) - twitter account of june funkin' legacy lol
+- [Modern June Funkin'](https://twitter.com/TheJuneFunk) - go follow the modern june funkin' acc please they deserve it
 
 ## The June Archive
  - [The June Archive](https://twitter.com/JuneFlipArchive) - The June Archive
