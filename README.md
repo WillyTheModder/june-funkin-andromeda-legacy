@@ -8,8 +8,8 @@ The source code to this is OUTDATED!! Whenever June Funkin': Legacy comes out, t
 Hello! This is the source code to June Funkin', a mod I made with some friends, and I coded! I'm uploading the source, as the mod uses the source code of Andromeda Engine.
 
 ## Credits of June Funkin'
-- [Willy](https://twitter.com/willy_lmao_lol) - Started the project. Did all the art, charted the song, and coded.
-- [Womo](https://twitter.com/KeithlinNicklin) - Created the song "Archive".
+- [Willy](https://twitter.com/willer_real_lol) - Started the project. Did all the art, charted the song, and coded.
+- [Womo](https://twitter.com/WomWithNoO) - Created the song "Archive".
 - [Quackerona](https://twitter.com/SillyDilly1001) - Bugfixed some of my errors, and playtested.
 - [June Funkin': Legacy](https://twitter.com/JuneFunkArchive) - twitter account of june funkin' legacy lol
 - [Modern June Funkin'](https://twitter.com/TheJuneFunk) - go follow the modern june funkin' acc please they deserve it
